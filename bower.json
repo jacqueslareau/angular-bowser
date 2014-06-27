@@ -1,0 +1,25 @@
+{
+  "name": "angular-bowser",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jacqueslareau/angular-bowser",
+  "authors": [
+    "Jacques Lareau <jack.lareau@gmail.com>"
+  ],
+  "description": "A service to detect client browser and version",
+  "main": "./src/angular-bowser.js",
+  "keywords": [
+    "angular",
+    "bowser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1"
+  }
+}
