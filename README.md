@@ -17,7 +17,7 @@ None except for AngularJS.
 Include src/angular-bowser.js in your html.
 
 ```html
-<script src="bower_components/angular-pnotify/src/angular-pnotify.js"></script>
+<script src="bower_components/angular-bowser/src/angular-bowser.js"></script>
 ```
 
 Add the angular-bowser module as a dependency to your application module:
