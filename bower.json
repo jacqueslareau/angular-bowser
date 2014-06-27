@@ -5,7 +5,7 @@
   "authors": [
     "Jacques Lareau <jack.lareau@gmail.com>"
   ],
-  "description": "A service to detect client browser and version",
+  "description": "An AngularJS service to detect client browser and version",
   "main": "./src/angular-bowser.js",
   "keywords": [
     "angular",
