@@ -1,7 +1,7 @@
 angular-bowser
 ====================
 
-This is a simple [AngularJS](http://angularjs.org/) service to provide browser and browser information.
+This is a simple [AngularJS](http://angularjs.org/) service to provide browser information.
 It's heavily based on [bowser](https://github.com/ded/bowser) code.
 
 ### Dependencies
