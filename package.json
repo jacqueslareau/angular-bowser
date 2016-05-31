@@ -1,0 +1,27 @@
+{
+  "name": "angular-bowser",
+  "version": "0.0.3",
+  "description": "AngularJS browser detection kit",
+  "main": "src/angular-bowser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacqueslareau/angular-bowser.git"
+  },
+  "keywords": [
+    "angular",
+    "bowser",
+    "browser"
+  ],
+  "author": "Jacques Lareau <jack.lareau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacqueslareau/angular-bowser/issues"
+  },
+  "homepage": "https://github.com/jacqueslareau/angular-bowser#readme",
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}
