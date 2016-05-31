@@ -10,14 +10,18 @@ None except for AngularJS.
 
 ### Install
 
-`bower install angular-bowser`
+`bower install --save angular-bowser`
+
+OR 
+
+`npm install --save angular-bowser`
 
 ### Usage
 
 Include src/angular-bowser.js in your html.
 
 ```html
-<script src="bower_components/angular-bowser/src/angular-bowser.js"></script>
+<script src="node_modules/angular-bowser/src/angular-bowser.js"></script>
 ```
 
 Add the angular-bowser module as a dependency to your application module:
@@ -30,13 +34,15 @@ Inject the service where you need it. A good place is in the run section of your
 
 ```javascript
 angular.module('MyApp')
-  .run(['bowser', function(bowser) {
+    .run(['bowser', function(bowser) {
     
-    if ( bowser.msie && bowser.version <= 6 ) {
-      alert('Seriously?!');
-    }
+        if ( bowser.msie && bowser.version <= 6 ) {
+        
+            alert(`${bowser.name}, Seriously?!`);
+            
+        }
     
-  }]);
+    }]);
 ```
 
 ### Properties
@@ -46,3 +52,7 @@ Example of properties are: firefox, chrome, msie, opera, android, ios, safari
 The browser version is always in the version property.
 
 For more information, please check [bowser](https://github.com/ded/bowser).
+
+### See also
+
+[ng-device-detector](https://github.com/srfrnk/ng-device-detector)
