@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/jacqueslareau/angular-bowser#readme",
   "dependencies": {
-    "angular": "^1.5.0"
+    "angular": "^1.3.0"
   }
 }
